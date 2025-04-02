@@ -65,3 +65,13 @@
 .rdp-months {
   flex-wrap: nowrap !important;
 }
+
+.rdp-range_middle {
+  background-color: #c69963 !important;
+}
+.rdp-range_end {
+  background: #c69963 !important;
+}
+.rdp-range_start {
+  background: #c69963 !important;
+}
