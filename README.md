@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Wild Oasis Website
 
-## Getting Started
+The Wild Oasis Website is a modern web application built with [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), and [Supabase](https://supabase.com). It provides a seamless user experience for managing cabin reservations, user profiles, and more.
 
-First, run the development server:
+## Features
+
+- **Cabin Management**: View, filter, and manage cabin listings.
+- **Reservation System**: Book, edit, and delete reservations.
+- **User Authentication**: Secure login and profile management using [NextAuth.js](https://next-auth.js.org/).
+- **Responsive Design**: Optimized for all devices using Tailwind CSS.
+- **Dynamic Routing**: Built with Next.js App Router for a modern navigation experience.
+
+## Project Structure
+
+The project follows a modular structure for scalability and maintainability:
+
+```
+app/
+  _components/       # Reusable React components
+  _lib/              # Utility functions and services
+  _styles/           # Global CSS styles
+  about/             # About page
+  account/           # User account-related pages
+  cabins/            # Cabin-related pages
+  login/             # Login page
+  api/               # API routes for server-side logic
+public/              # Static assets (images, icons, etc.)
+starter/             # Starter components and pages
+```
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   cd the-wild-oasis-website
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## Development
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Build and Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To build the application for production:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+To start the production server:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Scripts
 
-## Deploy on Vercel
+- `npm run dev`: Start the development server.
+- `npm run build`: Build the application for production.
+- `npm run start`: Start the production server.
+- `npm run lint`: Run ESLint to check for code quality issues.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Dependencies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**: Framework for server-rendered React applications.
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **Supabase**: Backend-as-a-service for authentication and database management.
+- **Date-fns**: Modern JavaScript date utility library.
+
+## DevDependencies
+
+- **ESLint**: Linter for identifying and fixing code issues.
+- **Prettier**: Code formatter.
+- **Tailwind CSS Plugins**: Additional utilities for Tailwind CSS.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes and push the branch.
+4. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Supabase Documentation](https://supabase.com/docs)
