@@ -13,8 +13,8 @@ const josefin = Josefin_Sans({
 
 export const metadata = {
   title: {
-    template: "%s / The Wild Oasis",
-    default: "The Wild Oasis",
+    template: "%s / The Caspian Sea",
+    default: "The Caspian Sea",
   },
   // if you dont have description for the pages, this will become the default one.
   description:

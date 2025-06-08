@@ -13,7 +13,7 @@ export default async function Page() {
     <div className="grid grid-cols-5 items-center gap-x-24 gap-y-32 text-lg">
       <div className="col-span-3">
         <h1 className="text-accent-400 mb-10 text-4xl font-medium">
-          Welcome to The Wild Oasis
+          Welcome to The Caspian Sea
         </h1>
 
         <div className="space-y-8">
@@ -61,17 +61,17 @@ export default async function Page() {
 
         <div className="space-y-8">
           <p>
-            Since 1962, The Wild Oasis has been a cherished family-run retreat.
+            Since 1962, The Caspian Sea has been a cherished family-run retreat.
             Started by our grandparents, this haven has been nurtured with love
             and care, passing down through our family as a testament to our
             dedication to creating a warm, welcoming environment.
           </p>
           <p>
-            Over the years, we&apos;ve maintained the essence of The Wild Oasis,
+            Over the years, we&apos;ve maintained the essence of The Caspian Sea,
             blending the timeless beauty of the mountains with the personal
             touch only a family business can offer. Here, you&apos;re not just a
             guest; you&apos;re part of our extended family. So join us at The
-            Wild Oasis soon, where tradition meets tranquility, and every visit
+            Caspian Sea soon, where tradition meets tranquility, and every visit
             is like coming home.
           </p>
 
